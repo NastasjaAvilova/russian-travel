@@ -1,0 +1,32 @@
+.cover {
+  width: 1184px;
+  height: 740px;
+  margin-top: 92px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../../images/images_cover/__background.jpg);
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 1024px;
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    width: 768px;
+    height: 480px;
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    width: 320px;
+    height: 200px;
+    margin-top: 66px;
+  }
+}
