@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   flex-flow: row;
-  width: 1184px;
+  max-width: 1184px;
   justify-content: space-between;
   margin-top: 92px;
   margin-right: auto;
@@ -22,9 +22,14 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
   .footer {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
     max-width: 288px;
     margin-top: 64px;
   }
