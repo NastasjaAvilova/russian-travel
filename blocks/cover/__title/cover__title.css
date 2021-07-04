@@ -4,13 +4,13 @@
   margin-top: 245px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 0;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   text-align: center;
   color: #FFFFFF;
-  text-decoration: none;
   -webkit-transition: opacity 0.8s ease;
   -moz-transition: opacity 0.8s ease;
   -ms-transition: opacity 0.8s ease;
