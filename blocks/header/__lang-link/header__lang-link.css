@@ -1,13 +1,21 @@
 .header__lang-link {
-  width: 30px;
-  height: 28px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  /* identical to box height, or 117% */
   text-align: right;
   margin-top: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
@@ -19,11 +27,8 @@
 @media screen and (max-width: 320px) {
   .header__lang-link {
     max-width: 22px;
-    max-height: 20px;
     font-size: 18px;
     line-height: 20px;
-/* identical to box height, or 111% */
-    text-align: right;
     margin-top: 5px;
   }
 }

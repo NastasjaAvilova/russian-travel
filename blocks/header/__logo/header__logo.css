@@ -1,7 +1,7 @@
 .header__logo {
   width: 176px;
   height: 52px;
-  background-image: url(../../../images/images_header/__logo.png);
+  background-image: url(../../../images/images_header/__logo.svg);
   background-size: cover;
 }
 

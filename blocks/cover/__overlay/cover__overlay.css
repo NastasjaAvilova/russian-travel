@@ -1,12 +1,13 @@
 .cover__overlay {
-  height: 740px;
+  min-height: 740px;
   width: 100%;
   background-image: url(../../../images/images_cover/__overlay.jpg);
   background-size: cover;
-  background: rgba(0,0,0,0.3);
+  background: rgba(42, 44, 47, 0.3);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-decoration: none;
   -webkit-transition: background 0.9s ease;
   -moz-transition: background 0.9s ease;
@@ -16,23 +17,23 @@
 }
 
 .cover__overlay:hover {
-  background: rgba(0,0,0,0.8);
+  background: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__overlay {
-    height: 200px;
+    min-height: 200px;
   }
 }
