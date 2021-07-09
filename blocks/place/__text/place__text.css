@@ -8,9 +8,10 @@
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 440px) {
   .place__text {
-    width: 288px;
+    max-width: 350px;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
     grid-area: unset;

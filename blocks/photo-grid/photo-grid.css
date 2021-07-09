@@ -26,15 +26,18 @@
     gap: 16px;
     max-width: 720px;
     margin-top: 88px;
+    width: 94%;
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 440px) {
   .photo-grid {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
     gap: 12px;
-    max-width: 288px;
+    max-width: 350px;
+    min-width: 288px;
     margin-top: 64px;
+    width: 90%;
   }
 }

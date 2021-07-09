@@ -35,7 +35,7 @@
   }
 } 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   .place {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: min-content auto;
@@ -43,9 +43,9 @@
   }
 } 
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 440px) {
   .place {
-    grid-template-columns: 320px;
+    grid-template-columns: 100%;
     grid-template-areas: none;
     margin-top: 50px;
   }
