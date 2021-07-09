@@ -11,9 +11,14 @@
 @media screen and (max-width: 440px) {
   .place__text {
     max-width: 350px;
-    width: 90%;
     margin-right: auto;
     margin-left: auto;
     grid-area: unset;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .place__text {
+    width: 90%;
   }
 }
